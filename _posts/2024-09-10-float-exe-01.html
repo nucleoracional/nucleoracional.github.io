@@ -1,0 +1,46 @@
+---  
+layout: post
+title:  "Exercício float 001"
+date:   2024-09-09 13:28:11 -0300
+categories: html5 update
+author: "Clarck"
+series: "html exe"
+---   
+
+
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.series == "html exe" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 1</title>
+    <style>
+      .imagem-flutuante {
+        float: left;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 1: Imagem Flutuando à Esquerda de um Texto</h1>
+    <img src="/assets/images/640px-Dog_(Canis_lupus_familiaris).jpeg" alt="Imagem" class="imagem-flutuante" />
+    <p>
+      Este é um parágrafo que envolve a imagem flutuante. O texto se ajusta ao
+      lado da imagem, proporcionando uma apresentação visual agradável.
+    </p>
+    By <a href="https://commons.wikimedia.org/wiki/User:ReyBrujo" title="User:ReyBrujo">ReyBrujo</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15689661">Link</a>
+  </body>
+</html>
+
+</body>
+</html>
