@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor com CodeMirror</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/monokai.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+
+</head>
+<body>
+    <h1>Editor de Código com CodeMirror</h1>
+    <textarea id="code-editor">function helloWorld() { console.log("Hello, World!"); }</textarea>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+
+    <script>
+        // Inicializando o CodeMirror no textarea
+        var editor = CodeMirror.fromTextArea(document.getElementById('code-editor'), {
+            mode: "javascript",       // Definindo a linguagem (JavaScript)
+            lineNumbers: true,        // Mostra os números de linha
+            theme: "monokai",         // Tema padrão, você pode mudar
+            tabSize: 4                // Tamanho do tab
+        });
+
+        // Exibindo o código no console
+console.log(editor.getValue());
+
+// Alterando o conteúdo do editor
+editor.setValue('function novoCodigo() { alert("Novo código!"); }');
+
+--><!--</script>-->
+<!----</body> ---->  
+
+
+
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor com CodeMirror</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/monokai.min.css">
+</head>
+
+<body>
+    <h1>Editor de Código com CodeMirror</h1>
+    <textarea id="code-editor">console.log("Hello, World!");</textarea>
+    <br>
+    <button onclick="runCode()">Executar Código</button>
+<a href="./paulista-medio.jpg"> baixar arquivo</a>
+    <script>
+        // Inicializando o CodeMirror
+        var editor = CodeMirror.fromTextArea(document.getElementById('code-editor'), {
+            mode: "javascript",
+            lineNumbers: true,
+            theme: "monokai",
+            tabSize: 4
+        });
+
+        // Função para executar o código digitado
+        function runCode() {
+            // Obtém o valor do editor
+            var code = editor.getValue();
+            try {
+                // Executa o código e exibe no console
+                eval(code);
+            } catch (error) {
+                console.error("Erro ao executar o código: ", error);
+            }
+        }
+
+    
+    </script>
+</body>
+
+</html>
