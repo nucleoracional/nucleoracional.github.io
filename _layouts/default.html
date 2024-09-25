@@ -3,18 +3,25 @@
 
   {%- include head.html -%}
 <link rel="stylesheet" href="/css/style.css">
-  <body>
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
+  
+    {%- include header.html -%}  
+    <!-- 
+      {% assign category = page.category %}
+      <img src="{{ '/assets/images/' | append: category | append: '/imagem-' | append: category | append: '.jpg' | relative_url }}" alt="Imagem de {{ category }}"> -->
+      
+    
+      
+      
+      
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+      
+      {%- include footer.html -%}
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
   </body>
-
-</html>
+  
+  </html>
