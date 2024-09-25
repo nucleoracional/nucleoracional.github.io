@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-25T11:14:32-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SETA</title><subtitle>Site1 site2 site3 site7</subtitle><entry><title type="html">introdução html</title><link href="http://localhost:4000/html5/2024/09/19/introducao.html" rel="alternate" type="text/html" title="introdução html" /><published>2024-09-19T18:50:00-03:00</published><updated>2024-09-19T18:50:00-03:00</updated><id>http://localhost:4000/html5/2024/09/19/introducao</id><content type="html" xml:base="http://localhost:4000/html5/2024/09/19/introducao.html"><![CDATA[<h1 id="1-introdução">1 Introdução</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Parte 01</span>
+<span class="nb">mkdir</span> <span class="nt">-p</span> /repository/exemplo_website
+<span class="nb">cd </span>repository/exemplo_website
+<span class="nb">touch </span>index.html
+<span class="nb">echo</span> <span class="s2">"ola mundo"</span> <span class="o">&gt;</span> index.html
+<span class="c"># parte 2</span>
+git init
+git add A
+git commit <span class="nt">-m</span> <span class="s2">"primeiro uso do repositorio"</span>
+</code></pre></div></div>
+
+<p>Depois de criar um repostiorio no github com o mesmo nome: repositorio_website<br />
+Devemos configurar <strong>remote origin</strong> como a URL para o repositorio<br />
+git remote –&gt; para configurar a url <strong>*origin</strong> e então fazer o <strong>push</strong> ↑</p>
+
+<h2 id="gravatar-global-recognized-avatar">Gravatar Global recognized avatar</h2>
+
+<h2 id="query-parameters">Query parameters</h2>
+
+<p>Pedaços de informação que vem depois da URL principal: ?s=149 : é calculado com algo chamado MD5 message-digest algorithm.<br />
+ <a href="/html5/exercicios/2024/09/20/exercicio-01.html">Exercício-001</a></p>]]></content><author><name>Clayton</name></author><category term="html5" /><summary type="html"><![CDATA[1 Introdução]]></summary></entry><entry><title type="html">Quiz</title><link href="http://localhost:4000/html5/2024/09/19/quiz.html" rel="alternate" type="text/html" title="Quiz" /><published>2024-09-19T16:20:00-03:00</published><updated>2024-09-19T16:20:00-03:00</updated><id>http://localhost:4000/html5/2024/09/19/quiz</id><content type="html" xml:base="http://localhost:4000/html5/2024/09/19/quiz.html"><![CDATA[<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdxlCt1UEExbbgVkYkNNcbGJs506qRhuHBuIY0WFRrVXCq95A/viewform?usp=sf_link">Quiz</a></p>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxlCt1UEExbbgVkYkNNcbGJs506qRhuHBuIY0WFRrVXCq95A/viewform?embedded=true" width="1080" height="1920" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+<hr />
+
+<p>teste</p>]]></content><author><name>Clayton</name></author><category term="html5" /><summary type="html"><![CDATA[Quiz]]></summary></entry><entry><title type="html">algebra</title><link href="http://localhost:4000/matematica/algebra/2024/09/19/algebra.html" rel="alternate" type="text/html" title="algebra" /><published>2024-09-19T00:00:00-03:00</published><updated>2024-09-19T00:00:00-03:00</updated><id>http://localhost:4000/matematica/algebra/2024/09/19/algebra</id><content type="html" xml:base="http://localhost:4000/matematica/algebra/2024/09/19/algebra.html"><![CDATA[<h1 id="algebra">Algebra</h1>
+
+<h2 id="expressões-algébricas">Expressões algébricas</h2>
+<p>São semelhantes `as <strong>expressões númericas</strong> mas agora usamos letras e números.</p>
+
+<p>São expressões onde aparecem letras e números.</p>
+
+<p>Quando a multiplicação é em comparação à dois fatores em que um deles é uma letra não utilizamos o signo <span style="color: red;  font-size: 28px;"><strong>X</strong></span> ou
+<span style="color: red; font-size: 28px"><strong>.</strong></span></p>
+
+<p>\(2y\)  é  igual duas à vezes \(y\)<br />
+\(2x\) é igual duas à vezes \(x\)</p>
+
+<p>A questão <strong>1. … 3.</strong> do livro serve para analisar se o aluno tem a noção do que é <strong>valor númerico de uma expressão algébrica.</strong></p>
+
+<p><strong>Questão 1.</strong> Considerando que uma pessoa aproveite a promoção de livros, calcule em seu caderno quando reais ela vai pagar pela compra de:</p>
+
+<h2 id="simplificação-de-expressões-algébricas">Simplificação de expressões algébricas</h2>
+
+<div style="background-color: lightyellow; border-radius: 12%">
+Quando uma expressão algébrica é simplificada, obtém-se uma expressão algébrica equivalente, mas de maneira mais simples.
+</div>
+<p><br /></p>
+
+\[4a + 3a = 7a\]
+
+<p>Imagine que vocẽ tem 4 <strong>a</strong>bacates e ganhou mais 3 <strong>a</strong>bacates resultando em 7<strong>a</strong>bacates.</p>
+
+<hr />
+<p><br /></p>
+
+\[3x + 4 + 4y -2 + 2x -2y\]
+
+<p>Calculamos os termos semelhantes:</p>
+
+<p>\(3x + 2x = 5x\)<br />
+\(4y -2y = 2y\) <br />
+\(4 - 2 = 2\)</p>
+
+<p>Então:</p>
+
+<p>\(5x + 2y + 2\) é a expressão algébrica simplificada.</p>
+
+<h3 id="exercício-1-expressões-algébricas">Exercício 1: Expressões algébricas</h3>
+
+<p>Sabemos que ( n ) é um número natural. Vamos criar expressões algébricas para cada item:</p>
+
+<p><strong>a) 25% desse número</strong></p>
+
+<p>25% de ( n ) é representado por 
+\(( \frac{25}{100} \times n )\) 
+, ou seja:</p>
+
+\[\frac{n}{4}\]
+
+<p><strong>b) 8 unidades a mais do que esse número</strong><br />
+Somamos \(8\) a  \(n\):<br />
+\((n + 8)\)</p>
+
+<p><strong>c) O antecessor desse número</strong><br />
+O antecessor de ( n ) é ( n - 1 ):<br />
+\((n - 1)\)</p>
+
+<p><strong>d) A quarta parte desse número</strong><br />
+A quarta parte de \(n\)  é \(( \frac{n}{4} ):\)</p>
+
+\[(\frac{n}{4})\]
+
+<p><strong>e) O sucessor desse número</strong><br />
+O sucessor de ( n ) é ( n + 1 ):<br />
+\(n + 1\)</p>
+
+<p><strong>f) A décima parte desse número</strong><br />
+A décima parte de ( n ) é \(\frac{n}{10}\)  :</p>
+
+\[\frac{n}{10}\]
+
+<p><strong>g) O quíntuplo desse número</strong><br />
+O quíntuplo de ( n ) é ( 5n ):</p>
+
+\[5n\]
+
+<hr />
+<p><br /></p>
+
+<h3 id="exercício-2-sequência-de-triângulos-com-palitos">Exercício 2: Sequência de triângulos com palitos</h3>
+
+<p>No segundo exercício, é mencionado que cada novo triângulo acrescenta 1 palito em cada lado do triângulo anterior.</p>
+
+<ul>
+  <li>O primeiro triângulo usa 3 palitos (um para cada lado).</li>
+  <li>O segundo triângulo usa mais 3 palitos, totalizando 6.</li>
+  <li>O terceiro triângulo usa mais 3 palitos, totalizando 9.</li>
+</ul>
+
+<p>Cada triângulo tem 3 lados e, a cada novo triângulo, estamos adicionando um conjunto de 3 palitos.</p>
+
+<p>O número de palitos para o ( n )-ésimo triângulo é dado por:
+\(3 \times n\)</p>
+
+<p>Essa fórmula representa o total de palitos em função do número de triângulos.</p>
+
+<h3 id="exercício-3-próximos-três-termos-de-cada-sequência">Exercício 3: Próximos três termos de cada sequência</h3>
+
+<hr />
+
+<p><strong>a) Sequência</strong>: ( a + 1 ), ( a + 2 ), ( a + 3 ), ( a + 5 ), ( a + 8 ), …</p>
+
+<p>Observando a sequência, a diferença entre os termos não é constante, mas segue a soma dos dois termos anteriores (semelhante à sequência de Fibonacci).</p>
+
+<ul>
+  <li>O próximo termo será a soma dos dois últimos:
+\(a + 5 + a + 8 = a + 13\)</li>
+  <li>O próximo após esse será:
+\(a + 8 + a + 13 = a + 21\)</li>
+  <li>O próximo será:
+\(a + 13 + a + 21 = a + 34\)</li>
+</ul>
+
+<p>Os três próximos termos são:</p>
+<ul>
+  <li>( a + 13 )</li>
+  <li>( a + 21 )</li>
+  <li>( a + 34 )</li>
+</ul>
+
+<hr />
+
+<p><strong>b) Sequência</strong>: ( x + 3 ), ( x + 6 ), ( x + 12 ), ( x + 24 ), …</p>
+
+<p>Aqui, o padrão de crescimento é que a diferença entre os termos dobra a cada passo. A diferença inicial é ( 3 ), depois ( 6 ), ( 12 ) e assim por diante.</p>
+
+<ul>
+  <li>O próximo termo terá uma diferença de:
+\(24 \times 2 = 48, \quad x + 24 + 48 = x + 72\)</li>
+  <li>O próximo termo terá uma diferença de:
+\(48 \times 2 = 96, \quad x + 72 + 96 = x + 168\)</li>
+  <li>O próximo termo terá uma diferença de:
+\(96 \times 2 = 192, \quad x + 168 + 192 = x + 360\)</li>
+</ul>
+
+<p>Os três próximos termos são:</p>
+<ul>
+  <li>( x + 72 )</li>
+  <li>( x + 168 )</li>
+  <li>( x + 360 )</li>
+</ul>
+
+<hr />
+
+<p><strong>c) Sequência</strong>: ( 2y + 8 ), ( 3y + 7 ), ( 4y + 6 ), …</p>
+
+<p>Neste caso, há um padrão tanto no coeficiente de ( y ) quanto na constante. O coeficiente de ( y ) aumenta de 1 em cada termo, e o valor constante diminui de 1 a cada termo.</p>
+
+<ul>
+  <li>O próximo termo será:
+\(5y + 5\)</li>
+  <li>O próximo será:
+\(6y + 4\)</li>
+  <li>O próximo será:
+\(7y + 3\)</li>
+</ul>
+
+<p>Os três próximos termos são:</p>
+<ul>
+  <li>( 5y + 5 )</li>
+  <li>( 6y + 4 )</li>
+  <li>( 7y + 3 )</li>
+</ul>
+
+<hr />
+
+<hr />
+<p><br /></p>
+<h2 id="tabela-de-apoio-comparando-setença-numerica-com-algébrica">Tabela de apoio comparando Setença numerica com Algébrica</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Sentença Numérica</strong></th>
+      <th><strong>Expressão Algébrica</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>O dobro de um número</td>
+      <td>( 2n )</td>
+    </tr>
+    <tr>
+      <td>O triplo de um número</td>
+      <td>( 3n )</td>
+    </tr>
+    <tr>
+      <td>A metade de um número</td>
+      <td>\(( \frac{n}{2}\) )</td>
+    </tr>
+    <tr>
+      <td>A terça parte de um número</td>
+      <td>\(( \frac{n}{3}\) )</td>
+    </tr>
+    <tr>
+      <td>A quarta parte de um número</td>
+      <td>\(( \frac{n}{4}\) )</td>
+    </tr>
+    <tr>
+      <td>A décima parte de um número</td>
+      <td>\(( \frac{n}{10}\) )</td>
+    </tr>
+    <tr>
+      <td>Cinco unidades a mais que um número</td>
+      <td>\(( n + 5\))</td>
+    </tr>
+    <tr>
+      <td>O quádruplo de um número</td>
+      <td>\(( 4n\))</td>
+    </tr>
+    <tr>
+      <td>O quíntuplo de um número</td>
+      <td>( 5n )</td>
+    </tr>
+    <tr>
+      <td>Dez unidades a menos que um número</td>
+      <td>( n - 10 )</td>
+    </tr>
+    <tr>
+      <td>Um número dividido por 5</td>
+      <td>\(( \frac{n}{5}\) )</td>
+    </tr>
+    <tr>
+      <td>O quadrado de um número</td>
+      <td>\(( n^2\) )</td>
+    </tr>
+    <tr>
+      <td>O cubo de um número</td>
+      <td>\(( n^3\))</td>
+    </tr>
+    <tr>
+      <td>O sucessor de um número</td>
+      <td>\(( n + 1\) )</td>
+    </tr>
+    <tr>
+      <td>O antecessor de um número</td>
+      <td>( n - 1 )</td>
+    </tr>
+    <tr>
+      <td>A soma de dois números</td>
+      <td>( n + m )</td>
+    </tr>
+    <tr>
+      <td>O produto de dois números</td>
+      <td>\(( n \times m )\) ou  \((nm)\)</td>
+    </tr>
+    <tr>
+      <td>A diferença entre dois números</td>
+      <td>( n - m )</td>
+    </tr>
+    <tr>
+      <td>O quociente de dois números</td>
+      <td>\(( \frac{n}{m}\) )</td>
+    </tr>
+    <tr>
+      <td>A raiz quadrada de um número</td>
+      <td>\(( \sqrt{n}\))</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="exercícios">Exercícios</h2>
+
+<h3 id="exercícios-1">Exercícios</h3>
+
+<ol>
+  <li>
+    <p><strong>Exercício 1:</strong>
+Um agricultor tem uma horta retangular. A largura da horta é 3 metros a mais do que o dobro do comprimento. Se o comprimento da horta é \(x\) metros, expresse a largura da horta em termos de \(x\) e encontre a largura quando o comprimento é 5 metros.</p>
+  </li>
+  <li>
+    <p><strong>Exercício 2:</strong>
+Um livro custa R$20,00 a mais do que o dobro do preço de um caderno. Se o preço do caderno é \(y\) reais, expresse o preço do livro em termos de \(y\) e calcule o preço do livro se o caderno custa R$8,00.</p>
+  </li>
+  <li>
+    <p><strong>Exercício 3:</strong>
+Maria tem um total de \(z\) reais. Ela gasta R$15,00 e depois de gastar o restante, ela tem 3 vezes mais dinheiro do que tinha antes de gastar os R$15,00. Encontre a expressão para o valor inicial \(z\) e determine quanto Maria tinha inicialmente se depois dos gastos ela tem R$45,00.</p>
+  </li>
+  <li>
+    <p><strong>Exercício 4:</strong>
+Um estacionamento cobra uma taxa fixa de R$10,00 mais R$2,00 por hora. Se um carro ficou estacionado por \(h\) horas, expresse o custo total em termos de \(h\) e calcule o custo para um carro que ficou estacionado por 6 horas.</p>
+  </li>
+  <li>
+    <p><strong>Exercício 5:</strong>
+Um restaurante oferece um desconto de 25% sobre o preço total da conta se a conta exceder R$100,00. Se a conta é \(w\) reais, expresse o valor da conta após o desconto em termos de \(w\) e calcule o valor final para uma conta de R$150,00.</p>
+  </li>
+  <li>
+    <p><strong>Exercício 6:</strong>
+Em uma caixa, há \(x\) bolas vermelhas e o triplo desse número em bolas azuis. Se a caixa contém um total de 40 bolas, expresse o número de bolas vermelhas em termos de \(x\) e determine quantas bolas vermelhas e azuis há na caixa.</p>
+  </li>
+  <li>
+    <p><strong>Exercício 7:</strong>
+Pedro comprou um pacote de 12 garrafas de refrigerante. Cada garrafa custa \(a\) reais e ele teve um desconto de R$10,00 no total. Se ele pagou R$50,00 pelo pacote, expresse o preço de cada garrafa em termos de \(a\) e encontre o preço de cada garrafa.</p>
+  </li>
+</ol>
+
+<h3 id="soluções">Soluções</h3>
+
+<ol>
+  <li>
+    <p><strong>Solução 1:</strong>
+Largura = \(2x + 3\). Para \(x = 5\):
+Largura = \(2(5) + 3 = 10 + 3 = 13\) metros.</p>
+  </li>
+  <li>
+    <p><strong>Solução 2:</strong>
+Preço do livro = \(2y + 20\). Para \(y = 8\):
+Preço do livro = \(2(8) + 20 = 16 + 20 = 36\) reais.</p>
+  </li>
+  <li>
+    <p><strong>Solução 3:</strong>
+Se \(z - 15 = 3(z - 15)\):
+\(z - 15 = 3z - 45\)
+\(2z = 30\)
+\(z = 30\). Portanto, Maria tinha R$30,00 inicialmente.</p>
+  </li>
+  <li>
+    <p><strong>Solução 4:</strong>
+Custo total = \(10 + 2h\). Para \(h = 6\):
+Custo total = \(10 + 2(6) = 10 + 12 = 22\) reais.</p>
+  </li>
+  <li>
+    <p><strong>Solução 5:</strong>
+Valor com desconto = \(w - 0.25w = 0.75w\). Para \(w = 150\):
+Valor com desconto = \(0.75(150) = 112.50\) reais.</p>
+  </li>
+  <li>
+    <p><strong>Solução 6:</strong>
+\(x + 3x = 40\)
+\(4x = 40\)
+\(x = 10\). Então, há 10 bolas vermelhas e 30 bolas azuis.</p>
+  </li>
+  <li>
+    <p><strong>Solução 7:</strong>
+Preço total sem desconto = \(12a - 10 = 50\)
+\(12a = 60\)
+\(a = 5\). Portanto, cada garrafa custa R$5,00.</p>
+  </li>
+</ol>]]></content><author><name>Clayton</name></author><category term="matematica" /><category term="algebra" /><summary type="html"><![CDATA[Algebra]]></summary></entry><entry><title type="html">Exercício float 001</title><link href="http://localhost:4000/programacao/2024/09/09/float-exe-01.html" rel="alternate" type="text/html" title="Exercício float 001" /><published>2024-09-09T13:28:11-03:00</published><updated>2024-09-09T13:28:11-03:00</updated><id>http://localhost:4000/programacao/2024/09/09/float-exe-01</id><content type="html" xml:base="http://localhost:4000/programacao/2024/09/09/float-exe-01.html"><![CDATA[<ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</ul>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 1</title>
+    <style>
+      .imagem-flutuante {
+        float: left;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 1: Imagem Flutuando à Esquerda de um Texto</h1>
+    <img src="/assets/images/640px-Dog_(Canis_lupus_familiaris).jpeg" alt="Imagem" class="imagem-flutuante" />
+    <p>
+      Este é um parágrafo que envolve a imagem flutuante. O texto se ajusta ao
+      lado da imagem, proporcionando uma apresentação visual agradável.
+    </p>
+    By <a href="https://commons.wikimedia.org/wiki/User:ReyBrujo" title="User:ReyBrujo">ReyBrujo</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15689661">Link</a>
+  </body>
+</html>
+
+</body>
+</html>]]></content><author><name>Clarck</name></author><category term="programacao" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Exercício float 002</title><link href="http://localhost:4000/matematica/2024/09/09/float-exe-02.html" rel="alternate" type="text/html" title="Exercício float 002" /><published>2024-09-09T13:28:11-03:00</published><updated>2024-09-09T13:28:11-03:00</updated><id>http://localhost:4000/matematica/2024/09/09/float-exe-02</id><content type="html" xml:base="http://localhost:4000/matematica/2024/09/09/float-exe-02.html"><![CDATA[<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01 - Float</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercício 2</title>
+        <style>
+          .imagem-flutuante {
+            float: right;
+            margin-left: 10px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Exercício 2: Imagem Flutuando à Direita com Texto ao Lado</h1>
+        <img src="/assets/images/640px-Domestic_cat_in_the_grass.jpeg" alt="Imagem" class="imagem-flutuante" />
+        <p>
+          Este parágrafo acompanha a imagem que flutua à direita. O texto flui ao
+          redor da imagem, criando uma apresentação equilibrada.
+        </p>
+        By <a href="//commons.wikimedia.org/wiki/User:Guma89" title="User:Guma89">Łukasz Ciesielski</a> - kontakt: <a rel="nofollow" class="external text" href="https://www.facebook.com/guma89">Facebook</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=32507829">Link</a>
+      </body>
+    </html>
+    
+</body>
+</html>]]></content><author><name></name></author><category term="matematica" /><summary type="html"><![CDATA[Exercício 01 - Float Exercício 2 Exercício 2: Imagem Flutuando à Direita com Texto ao Lado Este parágrafo acompanha a imagem que flutua à direita. O texto flui ao redor da imagem, criando uma apresentação equilibrada. By Łukasz Ciesielski - kontakt: Facebook - Own work, CC BY-SA 3.0, Link]]></summary></entry><entry><title type="html">Exercício float 003</title><link href="http://localhost:4000/html5/2024/09/09/float-exe-03.html" rel="alternate" type="text/html" title="Exercício float 003" /><published>2024-09-09T13:28:11-03:00</published><updated>2024-09-09T13:28:11-03:00</updated><id>http://localhost:4000/html5/2024/09/09/float-exe-03</id><content type="html" xml:base="http://localhost:4000/html5/2024/09/09/float-exe-03.html"><![CDATA[<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3</title>
+    <style>
+      .menu-flutuante {
+        float: left;
+        width: 15rem;
+        margin-right: 1rem;  /* coloque a unidade em px e veja a vantagem de utilizar rem */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 3: Menu Flutuando à Esquerda</h1>
+    <div class="menu-flutuante">
+      <ul>
+        <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Domestic_cat_in_the_grass.JPG/800px-Domestic_cat_in_the_grass.JPG?20140502065139">Gato</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge,_North_view.jpg#/media/File:Golden_Gate_Bridge,_North_view.jpg">Golden_Gate_Bridge</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Usain_Bolt_Rio_100m_final_2016k.jpg#/media/File:Usain_Bolt_Rio_100m_final_2016k.jpg">Usain Bolt Rio final 2016</a></li>
+      </ul>
+    </div>
+    <p>
+      Este é o conteúdo principal que envolve o menu flutuante. O texto flui ao
+      lado do menu, proporcionando uma organização clara e limpa.
+    </p>
+    By <a href="https://commons.wikimedia.org/wiki/User:Diliff" title="User:Diliff">Diliff</a> - <span class="int-own-work" lang="en">Own work</span> 
+    
+     <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3161112">Link</a>
+  </body>
+</html>]]></content><author><name>Clarck</name></author><category term="html5" /><summary type="html"><![CDATA[Exercício 3 Exercício 3: Menu Flutuando à Esquerda Gato Golden_Gate_Bridge Usain Bolt Rio final 2016 Este é o conteúdo principal que envolve o menu flutuante. O texto flui ao lado do menu, proporcionando uma organização clara e limpa. By Diliff - Own work CC BY-SA 3.0, Link]]></summary></entry><entry><title type="html">Exercício float 004</title><link href="http://localhost:4000/html5/2024/09/09/float-exe-04.html" rel="alternate" type="text/html" title="Exercício float 004" /><published>2024-09-09T13:28:11-03:00</published><updated>2024-09-09T13:28:11-03:00</updated><id>http://localhost:4000/html5/2024/09/09/float-exe-04</id><content type="html" xml:base="http://localhost:4000/html5/2024/09/09/float-exe-04.html"><![CDATA[<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 4</title>
+    <style>
+      html {font-size: 62.5%}
+      .imagem-esquerda {
+        width: 40rem;
+
+        float: left;
+        margin-right: 10rem;
+      }
+      .imagem-direita {
+        width: 40rem;
+        float: right;
+        margin-left: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 4: Imagens Flutuando à Esquerda e à Direita</h1>
+    <img src="/assets/images/640px-Golden_Gate_Bridge,_North_view.jpeg" alt="Imagem Esquerda" class="imagem-esquerda" />
+    <img src="/assets/images/640px-Golden_Gate_Bridge_by_night.jpeg" alt="Imagem Direita" class="imagem-direita" />
+    <p>
+      Este é um parágrafo centralizado entre duas imagens flutuantes. A primeira
+      imagem está à esquerda e a segunda à direita, criando um equilíbrio
+      visual.
+    </p>
+    By <a href="//commons.wikimedia.org/wiki/User:Radomianin" title="User:Radomianin">Radomianin</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=100226694">Link</a>
+    By Image taken by <a href="//commons.wikimedia.org/wiki/User:Dschwen" title="User:Dschwen">Daniel Schwen</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15682">Link</a>
+  </body>
+</html>]]></content><author><name>Clarck</name></author><category term="html5" /><summary type="html"><![CDATA[Exercício 4 html {font-size: 62.5%} .imagem-esquerda { width: 40rem;]]></summary></entry><entry><title type="html">Exercício float 005</title><link href="http://localhost:4000/html5/2024/09/09/float-exe-05.html" rel="alternate" type="text/html" title="Exercício float 005" /><published>2024-09-09T13:28:11-03:00</published><updated>2024-09-09T13:28:11-03:00</updated><id>http://localhost:4000/html5/2024/09/09/float-exe-05</id><content type="html" xml:base="http://localhost:4000/html5/2024/09/09/float-exe-05.html"><![CDATA[<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 5</title>
+    <style>
+      .imagem-flutuante {
+        float: left;
+        margin-right: 10px;
+      }
+      .legenda {
+        clear: both;
+        text-align: center;
+        margin-top: 21rem;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 5: Imagem com Legenda Flutuante</h1>
+
+    <img src="/assets/images/279px-Usain_Bolt_Rio_100m_final_2016k.jpeg" alt="Imagem" class="imagem-flutuante" />
+    <p>
+      Este parágrafo envolve a imagem flutuante. A legenda é posicionada abaixo
+      da imagem.
+    </p>
+    <p class="legenda">
+      Usain Bolt na final dos 100 metros, Beijing 2008
+    </p>
+    <a href="https://commons.wikimedia.org/wiki/File:Usain_Bolt_Rio_100m_final_2016k.jpg">Fernando Frazão/Agência Brasil</a>, <a href="https://creativecommons.org/licenses/by/3.0/br/deed.en">CC BY 3.0 BR</a><span>, via Wikimedia Commons</span>
+  </body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 5</title>
+    <style>
+      .imagem-esquerda {
+        float: left;
+        margin-right: 10px;
+      }
+      .imagem-direita {
+        float: right;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício 5: Imagem com Legenda Flutuante</h1>
+    <img src="/assets/images/640px-Golden_Gate_Bridge_by_night.jpeg" alt="golden gate">
+    <img src="/assets/images/640px-Golden_Gate_Bridge,_North_view.jpeg" alt="golden gate at night"> -->
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Golden_Gate_Bridge_viewed_from_Battery_Spencer.jpg" alt="Imagem Esquerda" class="imagem-esquerda" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Mount_Taylor%2C_New_Mexico.jpg" alt="Imagem Direita" class="imagem-direita" /> -->
+<!--     <p>
+      Este é um parágrafo centralizado entre duas imagens flutuantes. A primeira
+      imagem está à esquerda e a segunda à direita, criando um equilíbrio
+      visual.
+    </p>
+    By <a href="https://commons.wikimedia.org/wiki/User:Brocken_Inaglory" title="User:Brocken Inaglory">Brocken Inaglory</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5508083">Link</a> -->
+  <!-- </body>
+</html> -->]]></content><author><name>Clarck</name></author><category term="html5" /><summary type="html"><![CDATA[Exercício 5 .imagem-flutuante { float: left; margin-right: 10px; } .legenda { clear: both; text-align: center; margin-top: 21rem; }]]></summary></entry><entry><title type="html">Propriedade float</title><link href="http://localhost:4000/html5/update/2024/09/09/2024-propriedade-float.html" rel="alternate" type="text/html" title="Propriedade float" /><published>2024-09-09T05:28:11-03:00</published><updated>2024-09-09T05:28:11-03:00</updated><id>http://localhost:4000/html5/update/2024/09/09/2024-propriedade-float</id><content type="html" xml:base="http://localhost:4000/html5/update/2024/09/09/2024-propriedade-float.html"><![CDATA[<p><img src="/assets/images/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpeg" width="280" /></p>
+
+<p>A propriedade float especifica se um elemento deve flutuar para a esquerda, para a direita ou não flutuar atrávez de seu contêiner.<br />
+ <em>Nota: Elementos absolutamente posicionados ignoram o float</em></p>
+
+<p><strong><em>Sua função é envolver o texto em um elemento especifíco.</em></strong></p>
+
+<p>A expressão “dentro de seu contêiner” se refere ao contêiner pai do elemento que está sendo flutuado. Vamos detalhar o sig</p>
+
+<p>nificado e o comportamento da propriedade float para clarificar isso.</p>
+
+<p>Propriedade Float e Clear
+Estruturando e flutuando elementos</p>
+
+<p>Algo comum ao lermos alguma matéria em revistas ou jornais é uma imagem relacionada ao texto estar posicionada de um lado e, o conteúdo textual contornar a imagem. Algo parecido com isso:
+Representação de uma simulação de um layout clássico de revistas e jornais com uma foto do lado esquerdo e texto ao redor dela</p>
+
+<p>E se precisássemos desenvolver um template parecido com a imagem acima. Provavelmente começaríamos com um código HTML assim:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div&gt;
+  &lt;figure&gt;
+  	&lt;img src="img/imagem.jpg" alt="Imagem Xis"&gt;
+  	&lt;figcaption&gt;Legenda da imagem"&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est.&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est.&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>O que teríamos seria algo assim:
+Representação mostrando uma imagem no topo e um bloco de texto abaixo dela</p>
+
+<p>Por que isso? O que acontece é que a tag figure ocupa toda a largura da página e entra no empilhamento do documento/página, o que não permite que outros elementos apareçam ao seu lado.</p>
+
+<p>É aí que entra o float. Em resumo, essa propriedade permite que tiremos um elemento do fluxo vertical da página e automaticamente faz com que o conteúdo que venha a seguir flutue ao seu redor.</p>
+
+<p>O CSS ficaria assim:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>figure {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+</code></pre></div></div>
+
+<p>O que fizemos foi flutuar a tag figure para o lado esquerdo e, colocar uma margem inferior e direita para que os parágrafos não fiquem grudados na imagem. Com isso conseguiríamos reproduzir um layout igual ao da primeira imagem. Poderíamos até variar e colocar nossa imagem do lado direito:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>figure {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+</code></pre></div></div>
+
+<p>Aqui mudamos a direção que a tag figure vai flutuar e alteramos a margem do lado direito para o lado esquerdo. E teríamos um resultado assim:
+Representação simulando um layout clássico de revistas e jornais com uma foto do lado direito e texto ao redor dela
+A propriedade clear</p>
+
+<p>Continuando com o nosso exemplo anterior, imagine que agora precisássemos inserir um novo título com mais parágrafos abaixo da imagem. Algo parecido com isso: (para fins de exemplo, diminui o conteúdo textual ao redor da imagem)
+Representação de um layout com imagem localizada no topo esquerdo com parágrafos ao redor dela e um título com mais parágrafos no fluxo da página</p>
+
+<p>Para representar esse conteúdo, teríamos um HTML semelhante a esse:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;div&gt;</span>
+      <span class="nt">&lt;figure&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"img/imagem.jpg"</span> <span class="na">alt=</span><span class="s">"Imagem Xis"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;figcaption&gt;</span>Legenda da imagem"<span class="nt">&lt;/figcaption&gt;</span>
+      <span class="nt">&lt;/figure&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;h3&gt;</span>Novo título<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugit, ipsam reprehenderit porro aperiam esse quibusdam ratione excepturi amet est.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>No entanto, chegaríamos num resultado assim:
+Representação de um layout com imagem localizada no topo esquerdo com conteúdo textual ao redor dela</p>
+
+<p>Por que isso? Como definimos que a tag figure flutuaria à esquerda, saindo assim do fluxo vertical da página, todo conteúdo que vem após ela começa a preencher o espaço ao redor da imagem. O que acontece é que os parágrafos que vem logo após a tag figure são menores que a altura da imagem, fazendo com que o título (tag h3) ao invés de ser renderizada abaixo da imagem, apareça ao lado dela e seguindo o fluxo do documento.</p>
+
+<p>É aí que entra a propriedade clear. Ela tem a função de controlar o comportamento de elementos que apareçam no fluxo do documento após determinado elemento que possue a propriedade float. Em outras palavras, ela especifica se um elemento deve ser posicionado ao lado de elementos com float ou se devem ser colocados abaixo deles. A propriedade aceita 4 valores:</p>
+
+<ul>
+  <li><strong>left</strong>: Elemento é empurrado para baixo de elementos com float left;</li>
+  <li><strong>right</strong>: Elemento é empurrado para baixo de elementos com float</li>
+  <li><strong>right</strong>;</li>
+  <li><strong>both</strong>: Elemento é empurrado para baixo de elementos com float left ou right;</li>
+  <li><strong>none</strong>: Elemento não é empurrado para baixo de elementos com float.</li>
+</ul>
+
+<p>O CSS ficaria assim:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">figure</span> <span class="p">{</span>
+      <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+      <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">0</span><span class="p">;</span>
+    <span class="p">}</span>
+     
+    <span class="nt">h3</span> <span class="p">{</span> <span class="nl">clear</span><span class="p">:</span> <span class="nb">both</span><span class="p">;</span> <span class="p">}</span>
+    <span class="err">```</span>
+    <span class="c">/* Pelo fato da tag figure utilizar float left, aqui também poderíamos usar clear: left; */</span>
+
+<span class="nt">E</span> <span class="nt">com</span> <span class="nt">isso</span><span class="o">,</span> <span class="nt">conseguiríamos</span> <span class="nt">fazer</span> <span class="nt">com</span> <span class="nt">que</span> <span class="nt">o</span> <span class="nt">título</span> <span class="o">(</span><span class="nt">tag</span> <span class="nt">h3</span><span class="o">)</span> <span class="nt">fosse</span> <span class="nt">empurrado</span> <span class="nt">para</span> <span class="nt">baixo</span><span class="o">,</span> <span class="nt">sendo</span> <span class="nt">renderizado</span> <span class="nt">abaixo</span> <span class="nt">da</span> <span class="nt">tag</span> <span class="nt">figure</span> <span class="nt">e</span> <span class="nt">ficando</span> <span class="nt">igual</span> <span class="nt">ao</span> <span class="nt">layout</span> <span class="nt">que</span> <span class="nt">queríamos</span><span class="o">.</span>
+<span class="nt">Mais</span> <span class="nt">exemplos</span>
+
+<span class="nt">Esse</span> <span class="nt">foi</span> <span class="nt">apenas</span> <span class="nt">um</span> <span class="nt">exemplo</span> <span class="nt">da</span> <span class="nt">utilização</span> <span class="nt">da</span> <span class="nt">propriedade</span> <span class="nt">float</span><span class="o">.</span> <span class="nt">Outros</span> <span class="nt">casos</span> <span class="nt">que</span> <span class="nt">você</span> <span class="nt">pode</span> <span class="nt">ver</span> <span class="nt">em</span> <span class="nt">vários</span> <span class="nt">websites</span> <span class="nt">são</span><span class="o">:</span>
+
+<span class="err">###</span> <span class="nt">Menus</span> <span class="nt">de</span> <span class="nt">navegação</span>
+
+    <span class="nt">Float</span> <span class="nt">usado</span> <span class="nt">nos</span> <span class="nt">itens</span> <span class="nt">da</span> <span class="nt">lista</span><span class="o">.</span> <span class="nt">Mais</span> <span class="nt">precisamente</span> <span class="nt">em</span> <span class="nt">cada</span> <span class="nt">li</span><span class="o">,</span> <span class="nt">para</span> <span class="nt">dispor</span> <span class="nt">os</span> <span class="nt">itens</span> <span class="nt">do</span> <span class="nt">menu</span> <span class="nt">na</span> <span class="nt">horizontal</span><span class="o">.</span>
+<span class="err">###</span> <span class="nt">Grids</span>
+
+    <span class="nt">Float</span> <span class="nt">usado</span> <span class="nt">para</span> <span class="nt">dividir</span> <span class="nt">partes</span> <span class="nt">do</span> <span class="nt">grid</span><span class="o">.</span> <span class="nt">Por</span> <span class="nt">exemplo</span><span class="o">,</span> <span class="nt">colocar</span> <span class="nt">um</span> <span class="nt">bloco</span> <span class="nt">de</span> <span class="nt">conteúdo</span> <span class="nt">à</span> <span class="nt">esquerda</span> <span class="nt">e</span> <span class="nt">um</span> <span class="nt">outro</span> <span class="nt">bloco</span> <span class="nt">à</span> <span class="nt">direita</span><span class="o">.</span>
+
+
+
+<span class="err">##</span> <span class="nt">Comportamento</span> <span class="nt">da</span> <span class="nt">Propriedade</span> <span class="nt">float</span>
+
+<span class="nt">Quando</span> <span class="nt">você</span> <span class="nt">usa</span> <span class="nt">a</span> <span class="nt">propriedade</span> <span class="nt">float</span> <span class="nt">em</span> <span class="nt">um</span> <span class="nt">elemento</span><span class="o">,</span> <span class="nt">aqui</span> <span class="nt">está</span> <span class="nt">o</span> <span class="nt">que</span> <span class="nt">acontece</span><span class="o">:</span>
+
+<span class="o">**</span><span class="err">1</span> <span class="nt">Contêiner</span> <span class="nt">Pai</span> <span class="o">(</span><span class="nt">ou</span> <span class="nt">Contêiner</span> <span class="nt">de</span> <span class="nt">Bloqueio</span><span class="o">):**</span>
+
+<span class="o">*</span> <span class="nt">O</span> <span class="nt">contêiner</span> <span class="nt">pai</span> <span class="nt">é</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">que</span> <span class="nt">envolve</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">flutuante</span> <span class="nt">e</span> <span class="nt">ao</span> <span class="nt">qual</span> <span class="nt">ele</span> <span class="nt">está</span> <span class="nt">posicionado</span> <span class="nt">em</span> <span class="nt">relação</span><span class="o">.</span>
+<span class="o">*</span> <span class="nt">Esse</span> <span class="nt">é</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">que</span> <span class="nt">determina</span> <span class="nt">o</span> <span class="nt">contexto</span> <span class="nt">para</span> <span class="nt">o</span> <span class="nt">deslocamento</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">.</span>
+<span class="o">*</span> <span class="nt">O</span> <span class="nt">float</span> <span class="nt">faz</span> <span class="nt">com</span> <span class="nt">que</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">seja</span> <span class="nt">deslocado</span> <span class="nt">para</span> <span class="nt">a</span> <span class="nt">esquerda</span> <span class="nt">ou</span> <span class="nt">direita</span> <span class="nt">dentro</span> <span class="nt">dos</span> <span class="nt">limites</span> <span class="nt">do</span> <span class="nt">contêiner</span> <span class="nt">pai</span><span class="o">.</span>
+<span class="o">*</span> <span class="nt">O</span> <span class="nt">contêiner</span> <span class="nt">pai</span> <span class="nt">pode</span> <span class="nt">ser</span> <span class="nt">um</span> <span class="o">**&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">div</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;,**</span> <span class="o">**&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">section</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;**,</span> <span class="nt">ou</span> <span class="nt">qualquer</span> <span class="nt">outro</span> <span class="nt">elemento</span> <span class="nt">de</span> <span class="nt">bloco</span><span class="o">.</span>
+
+<span class="o">**</span><span class="err">2</span> <span class="nt">Flutuação</span><span class="o">:**</span>
+
+<span class="o">*</span> <span class="nt">Quando</span> <span class="nt">você</span> <span class="nt">aplica</span> <span class="err">`</span><span class="nt">float</span><span class="o">:</span> <span class="nt">left</span><span class="err">`</span><span class="o">;</span> <span class="nt">ou</span> <span class="err">`</span><span class="nt">float</span><span class="o">:</span> <span class="nt">right</span><span class="err">`</span><span class="o">;</span> <span class="nt">a</span> <span class="nt">um</span> <span class="nt">elemento</span><span class="o">,</span> <span class="nt">ele</span> <span class="nt">é</span> <span class="nt">removido</span> <span class="nt">do</span> <span class="nt">fluxo</span> <span class="nt">normal</span> <span class="nt">do</span> <span class="nt">documento</span> <span class="nt">e</span> <span class="nt">posicionado</span> <span class="nt">à</span> <span class="nt">esquerda</span> <span class="nt">ou</span> <span class="nt">à</span> <span class="nt">direita</span> <span class="nt">dentro</span> <span class="nt">do</span> <span class="nt">contêiner</span> <span class="nt">pai</span><span class="o">.</span>
+  
+  <span class="nt">O</span> <span class="nt">conteúdo</span> <span class="nt">subsequente</span> <span class="nt">dentro</span> <span class="nt">do</span> <span class="nt">mesmo</span> <span class="nt">contêiner</span> <span class="nt">pai</span> <span class="nt">fluirá</span> <span class="nt">ao</span> <span class="nt">redor</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">.</span> <span class="nt">Isso</span> <span class="nt">significa</span> <span class="nt">que</span><span class="o">,</span> <span class="nt">se</span> <span class="nt">houver</span> <span class="nt">texto</span> <span class="nt">ou</span> <span class="nt">outros</span> <span class="nt">elementos</span> <span class="nt">após</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">flutuante</span> <span class="nt">no</span> <span class="nt">contêiner</span> <span class="nt">pai</span><span class="o">,</span> <span class="nt">eles</span> <span class="nt">se</span> <span class="nt">posicionarão</span> <span class="nt">ao</span> <span class="nt">redor</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">.</span>
+
+<span class="o">**</span><span class="err">3</span> <span class="nt">Limites</span> <span class="nt">do</span> <span class="nt">Contêiner</span> <span class="nt">Pai</span><span class="o">:**</span>
+
+<span class="nt">-</span> <span class="nt">O</span> <span class="nt">espaço</span> <span class="nt">disponível</span> <span class="nt">para</span> <span class="nt">o</span> <span class="nt">float</span> <span class="nt">é</span> <span class="nt">limitado</span> <span class="nt">ao</span> <span class="nt">tamanho</span> <span class="nt">do</span> <span class="nt">contêiner</span> <span class="nt">pai</span><span class="o">.</span>
+<span class="nt">-</span> <span class="nt">Se</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">float</span> <span class="nt">for</span> <span class="nt">maior</span> <span class="nt">do</span> <span class="nt">que</span> <span class="nt">o</span> <span class="nt">espaço</span> <span class="nt">disponível</span> <span class="nt">ou</span> <span class="nt">se</span> <span class="nt">não</span> <span class="nt">houver</span> <span class="nt">espaço</span> <span class="nt">suficiente</span><span class="o">,</span> <span class="nt">o</span> <span class="nt">comportamento</span> <span class="nt">pode</span> <span class="nt">ser</span> <span class="nt">afetado</span><span class="o">.</span>
+<span class="nt">-</span> <span class="nt">O</span> <span class="nt">conteúdo</span> <span class="nt">subsequente</span> <span class="nt">tentará</span> <span class="nt">ajustar-se</span> <span class="nt">ao</span> <span class="nt">redor</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">,</span> <span class="nt">mas</span> <span class="nt">se</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">flutuante</span> <span class="nt">ocupar</span> <span class="nt">toda</span> <span class="nt">a</span> <span class="nt">largura</span> <span class="nt">disponível</span><span class="o">,</span> <span class="nt">o</span> <span class="nt">texto</span> <span class="nt">pode</span> <span class="nt">aparecer</span> <span class="nt">abaixo</span> <span class="nt">dele</span><span class="o">.</span>
+
+<span class="o">**</span><span class="err">4</span> <span class="nt">Análise</span> <span class="nt">do</span> <span class="nt">Exemplo</span><span class="o">**</span>
+
+<span class="nt">float</span><span class="o">:</span> <span class="p">{</span><span class="err">left</span><span class="p">}</span><span class="o">;</span>
+<span class="nt">O</span> <span class="nt">elemento</span> <span class="nt">com</span> <span class="nt">a</span> <span class="nt">classe</span> <span class="nt">float-element</span> <span class="nt">é</span> <span class="nt">flutuado</span> <span class="nt">à</span> <span class="nt">esquerda</span> <span class="nt">dentro</span> <span class="nt">da</span> <span class="nt">container</span><span class="o">.</span>
+<span class="nt">Contêiner</span> <span class="nt">Pai</span> <span class="o">(</span><span class="nt">container</span><span class="o">):</span> <span class="nt">O</span> <span class="nt">contêiner</span> <span class="nt">pai</span> <span class="nt">é</span> <span class="nt">um</span> <span class="o">*&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">div</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;*</span> <span class="nt">com</span> <span class="nt">a</span> <span class="nt">classe</span> <span class="nt">container</span><span class="o">,</span> <span class="nt">e</span> <span class="nt">é</span> <span class="nt">o</span> <span class="nt">contexto</span> <span class="nt">onde</span> <span class="nt">o</span> <span class="nt">elemento</span> <span class="nt">flutuante</span> <span class="nt">é</span> <span class="nt">posicionado</span><span class="o">.</span>
+<span class="nt">Conteúdo</span> <span class="nt">ao</span> <span class="nt">Redor</span><span class="o">:</span> <span class="nt">O</span> <span class="nt">parágrafo</span> <span class="o">(</span><span class="nt">com</span> <span class="nt">a</span> <span class="nt">classe</span> <span class="nt">content</span><span class="o">)</span> <span class="nt">flui</span> <span class="nt">ao</span> <span class="nt">redor</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">.</span> <span class="nt">O</span> <span class="nt">texto</span> <span class="nt">começa</span> <span class="nt">ao</span> <span class="nt">lado</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">,</span> <span class="nt">e</span> <span class="nt">se</span> <span class="nt">houver</span> <span class="nt">mais</span> <span class="nt">texto</span><span class="o">,</span> <span class="nt">ele</span> <span class="nt">continuará</span> <span class="nt">fluindo</span> <span class="nt">ao</span> <span class="nt">redor</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span> <span class="nt">dentro</span> <span class="nt">dos</span> <span class="nt">limites</span> <span class="nt">do</span> <span class="nt">contêiner</span> <span class="nt">pai</span><span class="o">.</span>
+
+<span class="o">***</span><span class="nt">Em</span> <span class="nt">Resumo</span><span class="o">***</span>
+<span class="err">•</span> <span class="s1">"Dentro de seu contêiner"</span> <span class="nt">refere-se</span> <span class="nt">ao</span> <span class="nt">contêiner</span> <span class="nt">pai</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">.</span>
+<span class="err">•</span> <span class="nt">O</span> <span class="nt">elemento</span> <span class="nt">flutuante</span> <span class="nt">é</span> <span class="nt">posicionado</span> <span class="nt">à</span> <span class="nt">esquerda</span> <span class="nt">ou</span> <span class="nt">à</span> <span class="nt">direita</span> <span class="nt">dentro</span> <span class="nt">dos</span> <span class="nt">limites</span> <span class="nt">do</span> <span class="nt">contêiner</span> <span class="nt">pai</span><span class="o">.</span>
+<span class="err">•</span> <span class="nt">O</span> <span class="nt">conteúdo</span> <span class="nt">subsequente</span> <span class="nt">no</span> <span class="nt">mesmo</span> <span class="nt">contêiner</span> <span class="nt">pai</span> <span class="nt">se</span> <span class="nt">ajusta</span> <span class="nt">ao</span> <span class="nt">redor</span> <span class="nt">do</span> <span class="nt">elemento</span> <span class="nt">flutuante</span><span class="o">.</span>
+
+<span class="err">```</span><span class="nt">html</span>
+<span class="o">&lt;!</span><span class="nt">DOCTYPE</span> <span class="nt">html</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nt">html</span> <span class="nt">lang</span><span class="o">=</span><span class="s1">"pt-BR"</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="nt">head</span><span class="o">&gt;</span>
+     <span class="o">&lt;</span><span class="nt">meta</span> <span class="nt">charset</span><span class="o">=</span><span class="s1">"UTF-8"</span><span class="o">&gt;</span>
+     <span class="o">&lt;</span><span class="nt">meta</span> <span class="nt">name</span><span class="o">=</span><span class="s1">"viewport"</span> <span class="nt">content</span><span class="o">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="o">&gt;</span>
+     <span class="o">&lt;</span><span class="nt">title</span><span class="o">&gt;</span><span class="nt">Exemplo</span> <span class="nt">Float</span><span class="o">&lt;/</span><span class="nt">title</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nt">style</span><span class="o">&gt;</span>
+<span class="nc">.container</span> <span class="p">{</span>
+         <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+        <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+      <span class="p">}</span>
+<span class="nc">.float-element</span> <span class="p">{</span>
+<span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+<span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+<span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="no">lightcoral</span><span class="p">;</span>
+<span class="nl">margin-right</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span> <span class="c">/* Espaço entre o elemento flutuante e o texto */</span>
+<span class="p">}</span>
+<span class="nc">.content</span> <span class="p">{</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="no">lightyellow</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="o">&lt;/</span><span class="nt">style</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="nt">head</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nt">body</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">div</span> <span class="nt">class</span><span class="o">=</span><span class="s1">"container"</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nt">div</span> <span class="nt">class</span><span class="o">=</span><span class="s1">"float-element"</span><span class="o">&gt;&lt;/</span><span class="nt">div</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nt">p</span> <span class="nt">class</span><span class="o">=</span><span class="s1">"content"</span><span class="o">&gt;</span>
+        <span class="nt">Lorem</span> <span class="nt">ipsum</span> <span class="nt">dolor</span> <span class="nt">sit</span> <span class="nt">amet</span><span class="o">,</span> <span class="nt">consectetur</span> <span class="nt">adipiscing</span> <span class="nt">elit</span><span class="o">.</span> <span class="nt">Vivamus</span> <span class="nt">lacinia</span> <span class="nt">odio</span> <span class="nt">vitae</span> <span class="nt">vestibulum</span><span class="o">.</span> <span class="nt">Nullam</span> <span class="nt">euismod</span><span class="o">,</span> <span class="nt">sapien</span> <span class="nt">eu</span> <span class="nt">consequat</span> <span class="nt">scelerisque</span><span class="o">,</span> <span class="nt">urna</span> <span class="nt">tortor</span> <span class="nt">facilisis</span> <span class="nt">felis</span><span class="o">,</span> <span class="nt">vel</span> <span class="nt">feugiat</span> <span class="nt">ligula</span> <span class="nt">lorem</span> <span class="nt">eget</span> <span class="nt">odio</span><span class="o">.</span>
+    <span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+  <span class="o">&lt;/</span><span class="nt">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="nt">body</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="nt">html</span><span class="o">&gt;</span>
+</code></pre></div></div>
+<h3 id="outro-exemplo">Outro Exemplo:</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pai"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha1"</span><span class="nt">&gt;</span>Filha 1<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha2"</span><span class="nt">&gt;</span>Filha 2<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha3"</span><span class="nt">&gt;</span>Filha 3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pai"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha1"</span><span class="nt">&gt;</span>Filha 1<span class="nt">&lt;/div&gt;</span>
+
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"clear"</span><span class="nt">&gt;&lt;/span&gt;</span>
+
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha2"</span><span class="nt">&gt;</span>Filha 2<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha3"</span><span class="nt">&gt;</span>Filha 3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pai"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha1"</span><span class="nt">&gt;</span>Filha 1<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha2 clear"</span><span class="nt">&gt;</span>Filha 2<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha3"</span><span class="nt">&gt;</span>Filha 3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pai"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha1"</span><span class="nt">&gt;</span>Filha 1<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha2 clear-left"</span><span class="nt">&gt;</span>Filha 2<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"filha3"</span><span class="nt">&gt;</span>Filha 3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><strong>* Código Css</strong>*</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.pai</span><span class="p">{</span>
+	<span class="nl">margin</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.pai</span><span class="o">,</span>
+<span class="nc">.filha1</span><span class="o">,</span>
+<span class="nc">.filha2</span><span class="o">,</span>
+<span class="nc">.filha3</span><span class="p">{</span>
+	<span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+	<span class="nl">color</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+	<span class="nl">background</span><span class="p">:</span> <span class="no">gray</span><span class="p">;</span>
+	<span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.filha1</span><span class="p">{</span>
+	<span class="nl">background</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.filha2</span><span class="p">{</span>
+	<span class="nl">background</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.filha3</span><span class="p">{</span>
+	<span class="nl">background</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.filha1</span><span class="o">,</span>
+<span class="nc">.filha2</span><span class="o">,</span>
+<span class="nc">.filha3</span><span class="p">{</span>
+	<span class="nl">color</span><span class="p">:</span> <span class="m">#ffffff</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.clear</span><span class="p">{</span>
+	<span class="nl">clear</span><span class="p">:</span> <span class="nb">both</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">span</span><span class="p">{</span>
+	<span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.clear-left</span><span class="p">{</span>
+	<span class="nl">clear</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<blockquote>
+  <p>Um bloco está sem o elemento com o clear, e o outro possui.</p>
+</blockquote>
+
+<p>A relação entre float e clear é bem simples, o float faz o elementos flutuarem em uma direção.</p>
+
+<p>Mas em algum momento, você pode precisar interromper isso, se uma lista de elementos está com float.</p>
+
+<p>Neste ponto, você pode adicionar outro elemento com a o clear, para bloquear isso.</p>
+
+<p>Ou adicionar a propriedade em algum elemento já existente.</p>
+
+<p>No meu exemplo, o caso de uso com um terceiro elemento, é o uso do span.</p>
+
+<p>Nos demais exemplos, o objeto “filha2” recebe classes diferentes para ter o mesmo comportamento.</p>
+
+<p>O clear “quebra” a sequência de floats.</p>
+
+<p>Veja que usei “clear: both” e “clear: left”, ou seja, quebrando em ambos os lados “both” ou apenas elementos flutuando a esquerda “left”</p>
+
+<p>O “clear: right”, segue a mesma ideia, mas com elementos que estejam flutuando para a direita “float: right”</p>
+
+<p>Normalmente, o “clear: both” resolve o problema.</p>
+
+<blockquote>
+  <p style="color:tomato;"> Note que para o <strong>"clear"</strong> ter efeito, o elemento precisa ser do tipo <strong>"block level"</strong>, como é o caso nativo de uma div.
+</p>
+</blockquote>
+
+<p>Como eu usei um span, ele é “inline level”, sendo assim, precisei no css declarar que ele também será block, usando o “display: block”.</p>
+
+<p>Depois procure sobre elementos de block level e inline level, entender isso ajuda muito a criar um css.</p>
+
+<!-- 
+> : **warging:** Do not push the ...
+ -->]]></content><author><name>Clarck</name></author><category term="html5" /><category term="update" /><summary type="html"><![CDATA[]]></summary></entry></feed>

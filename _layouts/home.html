@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<article class="post">
+  <header>
+    <h1>{{ page.title }}</h1>
+
+    {% assign category = page.category %}
+    <img src="{{ '/assets/images/' | append: category | append: '/imagem-' | append: category | append: '.jpg' | relative_url }}" alt="Imagem de {{ category }}">
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
+
+<link rel="stylesheet" href="/css/style.css">
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <nav class="sc-navbar">
+  <ul>
+    {% assign recent_posts = site.posts | reverse | slice: 0, 7 %}
+    {% for post in recent_posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %b %Y" }}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+  {{ content }}
+  <img src="/assets/images/html5/imagem-html5.jpg" height="250rem;" alt="">
+  
+  {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <ul class="post-list sc-list">
+    {%- for post in site.posts -%}
+    <img src="/assets/images/b31ed1ab-f79e-457b-a255-124c0fc32283.jpg" alt="">
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link"  href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    
+    <p class="rss-subscribe">Inscreva-se <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+    
+  </div>
