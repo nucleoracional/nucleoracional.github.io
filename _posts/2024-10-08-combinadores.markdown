@@ -1,6 +1,6 @@
 ---
 layout: post
-tile: "Combinadores-p2"
+tile: "Combinadores-2"
 category: html5 
 date: 2024-10-08 14:45:00 -03:00
 ---
