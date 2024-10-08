@@ -1,8 +1,8 @@
 ---
 layout: post
-tile: "Compreeensão de conceitos - nível estável"
-category: html5 conceitos
-date: 2024-10-05 13:55:00 -03:00
+tile: "Combinadores-p2"
+category: html5 
+date: 2024-10-08 14:45:00 -03:00
 ---
 
 # Combinadores  
